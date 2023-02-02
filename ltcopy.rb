@@ -1,2 +1,6 @@
-int = 12345
-puts int.to_s.chars.to_a[1].to_i
+arr = "hlabcdefgijkmnopqrstuvwxyz"
+words = ["hello","leetcode"]
+puts words.sort_by{|x| x.length.reverse}
+arr = arr.chars.to_a
+puts arr.find_index('m')
+
