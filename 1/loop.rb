@@ -2,8 +2,7 @@ i = 1
 
 while i < 5
 
-  puts "i = " + i.to_s
-  puts "i = " + "#{i}"
+  print 'i = ' + i.to_s
+  print 'i = ' + "#{i}"
   i += 1
 end
-

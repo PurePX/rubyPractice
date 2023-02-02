@@ -1,30 +1,30 @@
 if 2 > 1
-    puts '2 > 1'
+    print '2 > 1'
 else
-    puts 'no'
+    print 'no'
 end
 
 if 2 < 1
-    puts '2 < 1'
+    print '2 < 1'
 else
-    puts 'no'
+    print 'no'
 end
 
-puts 'yes' unless 2 < 1
-puts 'yes' if 2 > 1
+print 'yes' unless 2 < 1
+print 'yes' if 2 > 1
 
 name = 'Mary'
 
 if name == 'Angel'
-    puts name
+    print name
 elsif name == 'Aby'
-    puts name
+    print name
 elsif name == 'Mary'
-    puts name
+    print name
 elsif name == 'Ann'
-    puts name
+    print name
 end
 
-if name == 'Mary' and 1 < 2 
-    puts name + '1'
+if name == 'Mary' and 1 < 2
+    print name + '1'
 end

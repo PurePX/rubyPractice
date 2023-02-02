@@ -4,11 +4,11 @@ sub = 5 - 3
 mult = 4 * 5
 div = 16 / 8
 
-puts name
-puts add
-puts sub
-puts mult
-puts div
+print name
+print add
+print sub
+print mult
+print div
 
 eq1 = 1 < 2
 eq2 = 1 > 2
@@ -17,19 +17,18 @@ eq4 = 2 == 2
 eq5 = 2 >= 2
 eq6 = 2 <= 2
 
+print eq1
+print eq2
+print eq3
+print eq4
+print eq5
+print eq6
+print "#{eq5}" + ' ' + "#{eq6}"
 
-puts eq1
-puts eq2
-puts eq3
-puts eq4
-puts eq5
-puts eq6
-puts "#{eq5}" + " " + "#{eq6}"
+print '____________'
 
-puts '____________'
+print 2 + 5 * 10
 
-puts 2 + 5 * 10
-
-puts false and true
-puts false && false
-puts true && true
+print false and true
+print false && false
+print true && true

@@ -1,7 +1,7 @@
-puts "string".class
-puts 1.class
-puts "2".class
+print 'string'.class
+print 1.class
+print '2'.class
 
-puts "string"
-puts 1 + 2
-puts "2"+"1"
+print 'string'
+print 1 + 2
+print '2' + '1'

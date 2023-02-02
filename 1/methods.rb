@@ -1,9 +1,9 @@
 def division
-  puts  "method body"
+  print 'method body'
 end
 
 def division2(name)
-  puts "My name is " + name
+  print 'My name is ' + name
 end
 
 def division3
@@ -13,21 +13,18 @@ def division3
 end
 
 division3
-puts 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+print 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 
-
-def division4(name = '', age = 20, weight = '')
+def division4(name = '', age = 20, _weight = '')
   var = 'Hello '
-  if name != 'Ann' and age == 20
-    var += 'World'
-  end
+  var += 'World' if name != 'Ann' and age == 20
   # puts 'My name is ' + name
   # puts 'My age is ' + age.to_s
   # puts 'My weight is ' + "#{weight}"
-  return var
+  var
 end
 
-puts division4 'Aby', 20, 70
-puts division4 'Ann', 20, 78
-puts division4 'Michael', 20, 120
-puts division4 'Ron', 2, 14
+print division4 'Aby', 20, 70
+print division4 'Ann', 20, 78
+print division4 'Michael', 20, 120
+print division4 'Ron', 2, 14

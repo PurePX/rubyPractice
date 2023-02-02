@@ -1,12 +1,8 @@
 require_relative 'cart'
 require_relative 'item'
 
-cart = Cart.new
-cart.add_item(Item.new)
-cart.add_item(Item.new)
+item = Item.new({ price: 25, weight: 120, name: 'Car' })
+item1 = Item.new({ price: 25, weight: 120, name: 'Car' })
 
-p cart
-
-cart.remove_item
-p cart
-
+item.info { |value| print value }
+item1.info
